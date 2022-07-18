@@ -1,0 +1,10 @@
+
+* {
+    background-color: rgb(240, 211, 149);
+}
+.img-fondo {
+    display: flex;
+    justify-content: center;
+    padding-left: 35%;
+    padding-top: 5%;
+}
