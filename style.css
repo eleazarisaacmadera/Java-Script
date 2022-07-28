@@ -1,10 +1,37 @@
 
 * {
-    background-color: rgb(240, 211, 149);
+    background-color: rgb(12, 52, 184);
 }
 .img-fondo {
     display: flex;
     justify-content: center;
-    padding-left: 35%;
+    padding-left: 15%;
     padding-top: 5%;
+    height: 500px;
 }
+
+.genres {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .horror { grid-area: 1 / 2 / 2 / 3; }
+    .drama { grid-area: 1 / 3 / 2 / 4; }
+    .comedy { grid-area: 1 / 4 / 2 / 5; }
+    .action { grid-area: 2 / 2 / 3 / 3; }
+    .musicals { grid-area: 2 / 3 / 3 / 4; }
+    .scifi { grid-area: 2 / 4 / 3 / 5; }
+    .docummentary { grid-area: 3 / 2 / 4 / 3; }
+    .fantasy { grid-area: 3 / 3 / 4 / 4; }
+    .independent { grid-area: 3 / 4 / 4 / 5; }
+
+    .portada-section {
+        width: 250px;
+    }
+
+    .logob {
+        width: 150px;
+    }
